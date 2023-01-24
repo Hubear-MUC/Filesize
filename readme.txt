@@ -1,27 +1,37 @@
-FileSize 0.1
-------------
+File Size 0.2
 
-This program tells the size of a file.
+This program tells the size of a file given as argument when beeing invoked.
 
-The file has to be named
+WARNING: When no argument is given, the program will be (hopefully) stopped by
+         the operating system with a segmentation fault!!
 
-  d.d
-  
-and has to be placed in the same directory where the program itself is located.
+	 It does not yet contain an error handling for a missing argument!!
 
-Just invoke the program after compilation and it will tell you the size of the file  d.d.
+That is the reason for the "0" as the major version number.
 
-The version number 0.1 was chosen because programs like this should take a file name as argument to masure its size.
-However the implementation of using the arguments of an invocation could not be done yet because of the limited code space.
+Just invoke like:
 
-However this program is intended as a first test to actually deal with a file by opening it, doing some operations on it and finally close it again.
+  ./fsize filename
+
+and it will answer like
+
+  out: xxx
+
+with xxx beeing the number of byte of the file size.
+
+This program will be needed as part of a future tool to estimate the size
+of a project made of several files with also including the #include-
+directives and the included files into the calculation.
 
 
+Version history:
+----------------
 
-Version history
----------------
+Version 0.2
+
+Implemented the processing of arguments at invocation to give the name of the file to measure.
+
 
 Version 0.1
 
-Initial version
-
+Initial implementation
