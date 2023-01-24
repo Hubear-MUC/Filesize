@@ -7,6 +7,8 @@ See "readme.txt" for details.
 
 Code extent: max. 118 bytes
 
+The files with the comment "Version 0.1" remained unchanged but still are in use in this project.
+
 ---------------
 
 Version history
