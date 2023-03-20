@@ -1,18 +1,22 @@
 # Filesize
-Version 0.2
+Version 0.3
 
 Determining the size of a file
 
 See "readme.txt" for details.
 
-Code extent: max. 118 bytes
+Code extent: max. 130 bytes
 
-The files with the comment "Version 0.1" remained unchanged but still are in use in this project.
 
 ---------------
 
 Version history
 ---------------
+
+Version 0.3
+
+Fixing the issue of a segmentation fault if no file name is given as argument.
+
 
 Version 0.2
 
