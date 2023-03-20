@@ -1,13 +1,6 @@
-File Size 0.2
+File Size 0.3
 
 This program tells the size of a file given as argument when beeing invoked.
-
-WARNING: When no argument is given, the program will be (hopefully) stopped by
-         the operating system with a segmentation fault!!
-
-	 It does not yet contain an error handling for a missing argument!!
-
-That is the reason for the "0" as the major version number.
 
 Just invoke like:
 
