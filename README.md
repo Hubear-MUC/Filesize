@@ -5,13 +5,22 @@ Determining the size of a file
 
 See "readme.txt" for details.
 
-Code extent: max. 130 bytes
+Code extent: max. 142 bytes
 
 
 ---------------
 
 Version history
 ---------------
+
+Version 1.0:
+
+Improvement of the user- interaction by replacing the "out : "- statement
+from the toolbox with a statement that the result is the size of the file.
+
+So the usability now can be regarded as understandable enough to set the
+version number to 1.0
+
 
 Version 0.3
 
