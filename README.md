@@ -1,5 +1,6 @@
 # Filesize
-Version 0.3
+
+Version 1.0
 
 Determining the size of a file
 
