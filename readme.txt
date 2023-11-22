@@ -1,4 +1,4 @@
-File Size 0.3
+File Size 1.0
 
 This program tells the size of a file given as argument when beeing invoked.
 
@@ -8,7 +8,7 @@ Just invoke like:
 
 and it will answer like
 
-  out: xxx
+  Size : xxx
 
 with xxx beeing the number of byte of the file size.
 
@@ -17,19 +17,20 @@ of a project made of several files with also including the #include-
 directives and the included files into the calculation.
 
 
-Version history:
-----------------
+Changes:
+--------
 
-Version 0.3
+Version 1.0:
 
-Fixing the issue of a segmentation fault if no file name is given as argument.
+Improvement of the user- interaction by replacing the "out : "- statement
+from the toolbox with a statement that the result is the size of the file.
+
+So the usability now can be regarded as understandable enough to set the
+version number to 1.0
 
 
-Version 0.2
+Version 0.3:
 
-Implemented the processing of arguments at invocation to give the name of the file to measure.
+Error handling for missing file parameter implemented.
 
 
-Version 0.1
-
-Initial implementation
